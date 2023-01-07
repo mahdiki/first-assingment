@@ -1,19 +1,24 @@
 /* header */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;500&display=swap');
+
 .top-page {
 
     background-image: url("../images/banner/banner3.png");
-    width: 1600px;
+    width: 100%;
     height: 800px;
+    background-size: cover;
 }
 
 .header-text {
     text-align: right;
-    padding: 200px 250px;
+    padding: 200px 80px;
+
 }
 
 .header-title {
     font-size: 65px;
     color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
 
 }
 
@@ -42,18 +47,108 @@
 
 .failures-photo {}
 
-.failures-text {}
+.failures-text {
+    text-align: left;
+    padding: 200px 100px;
+}
 
 .failures-title {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 40px;
+}
+
+.failures-description {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    color: black;
+
 }
 
 .failures-list {
     list-style: none;
+    color: #444343;
+    line-height: 26px;
+    padding: 0;
 }
 
 .check-mark {
     color: chartreuse;
 
+}
+
+.my-plan {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 150px;
+}
+
+.positive {
+    background-image: url(../images/gradient1.png), url("../images/watch.png");
+
+    background-repeat: no-repeat;
+    width: 1240px;
+    height: 300px;
+    background-size: contain;
+    margin-left: 50px;
+
+}
+
+.positive-text {
+    text-align: left;
+    padding: 20px 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.positive-button {
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+}
+
+.last-page {
+    display: flex;
+
+    background-color: black;
+    color: white;
+    margin-top: 80px;
+    width: 100%;
+    height: 400px;
+}
+
+.future {
+    padding: 50px 50px;
+    padding-left: 60px;
+}
+
+.subs {
+    padding: 50px 290px;
+}
+
+.subs-button {
+    width: 120.11px;
+    height: 44px;
+    border: none;
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
+
+.icons {
+    padding-top: 40px;
+}
+
+textarea {
+    background-color: black;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    border-color: #FFFFFF;
+    border-radius: 5px;
 }
