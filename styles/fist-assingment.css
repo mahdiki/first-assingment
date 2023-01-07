@@ -1,0 +1,59 @@
+/* header */
+.top-page {
+
+    background-image: url("../images/banner/banner3.png");
+    width: 1600px;
+    height: 800px;
+}
+
+.header-text {
+    text-align: right;
+    padding: 200px 250px;
+}
+
+.header-title {
+    font-size: 65px;
+    color: #FFFFFF;
+
+}
+
+.header-description {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+
+
+}
+
+.header-button {
+    color: #005FAC;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.my-failures {
+    display: flex;
+
+}
+
+.failures-photo {}
+
+.failures-text {}
+
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failures-list {
+    list-style: none;
+}
+
+.check-mark {
+    color: chartreuse;
+
+}
